@@ -123,6 +123,20 @@ img {
   overflow: hidden; /* For animation ScrollReveal */
 }
 
+/*=============== NAV btns ===============*/
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .3s;
+}
+
 /*=============== HEADER & NAV ===============*/
 .header {
   position: fixed;
