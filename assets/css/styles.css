@@ -257,3 +257,65 @@ img {
 .active-link {
   color: var(--btn-color);
 }
+
+
+/*=============== HOME ===============*/
+.home {
+  position: relative;
+}
+
+.home_container {
+  row-gap: 3rem;
+  padding-top: 2rem;
+}
+
+.home_img {
+  width: 300px;
+  justify-self: center;
+}
+
+.home_data {
+  text-align: center;
+}
+
+.home_title {
+  font-size: var(--biggest-font-size);
+  font-family: var(--title-font);
+  margin-bottom: 1rem;
+}
+
+.home_title img {
+  width: 40px;
+}
+
+.home_title div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .5rem;
+}
+
+.home_description {
+  padding: 0 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.home_leaf-1,
+.home_leaf-2 {
+  position: absolute;
+  opacity: .2;
+}
+
+.home_leaf-1 {
+  width: 80px;
+  top: 80px;
+  left: -1rem;
+  transform: rotate(90deg);
+}
+
+.home_leaf-2 {
+  width: 100px;
+  right: -2em;
+  bottom: 1rem;
+  transform: rotate(-15deg);
+}
