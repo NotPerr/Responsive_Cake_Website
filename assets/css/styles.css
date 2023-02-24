@@ -344,3 +344,41 @@ img {
   bottom: 1rem;
   transform: rotate(-15deg);
 }
+
+/*=============== ABOUT ===============*/
+.about {
+  position: relative;
+}
+
+.about_container {
+  row-gap: 3rem;
+}
+
+.about_data {
+  text-align: center;
+}
+
+.about_title img {
+  width: 30px;
+}
+
+.about_title div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.about_img {
+  width: 300px;
+  justify-content: center;
+}
+
+.about_leaf {
+  width: 100px;
+  opacity: .2;
+  position: absolute;
+  right: -1.5rem;
+  bottom: 11rem;
+  transform: rotate(-15deg);
+}
