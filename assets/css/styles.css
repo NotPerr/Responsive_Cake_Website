@@ -410,6 +410,20 @@ img {
 .about_img {
   width: 300px;
   justify-content: center;
+  margin: 0 auto;
+}
+
+.about_img-1 {
+  position: absolute;
+  top: 25rem;
+  transform: rotate(35.31deg);
+}
+
+.about_img-2 {
+  position: absolute;
+  top: 35rem;
+  left: 20rem;
+  transform: rotate(-38.61deg);
 }
 
 .about_leaf {
