@@ -137,6 +137,11 @@ img {
   transition: color .3s;
 }
 
+/* Active link */
+.active-link {
+  color: var(--first-color);
+}
+
 /*=============== HEADER & NAV ===============*/
 .header {
   position: fixed;
