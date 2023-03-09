@@ -163,6 +163,10 @@ body.dark-theme {
   z-index: var(--z-fixed);
   transition: box-shadow .3s, background .4s;
 }
+/* Change background header */
+.bg-header {
+  box-shadow: 0 2px 8px hsla(19, 64%, 24%, .1);
+}
 
 .nav {
   position: relative;
