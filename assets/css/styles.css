@@ -137,6 +137,17 @@ img {
   transition: color .3s;
 }
 
+/*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --first-color: hsla(354, 100%, 96%, 88%);
+  --first-color-alt: hsl(354, 96%, 91%);
+  --title-color: hsl(354, 27%, 98%);
+  --text-color: hsl(355, 27%, 95%);
+  --body-color: hsl(0, 0%, 7%);
+  --container-color: hsl(0, 0%, 20%);
+  --btn-color: hsla(354,100%,75%, 90%);
+}
+
 /* Active link */
 .active-link {
   color: var(--first-color);
