@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/cake logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/cake_logo.png" type="image/x-icon">
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -13,52 +13,318 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive sushi website - Bedimcode</title>
+        <title>Responsive Cake website - Notperr</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav_logo">
+                    <img src="assets/img/cake_logo.png" alt="logo image">
+                    Cake
+                </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#popular" class="nav_link">Popular</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#recently" class="nav_link">Recently</a>
+                        </li>
+                    </ul>
+
+                    <!-- close button -->
+                    <div class="nav_close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="assets/img/leaf-branch-4.png" alt="nav image" class="nav_img-1">
+                    <img src="assets/img/leaf-branch-3.png" alt="nav image" class="nav_img-2">
+                </div>
+
+                <div class="nav_buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home_container container grid">
+                    <img src="assets/img/home-img.png" alt="chocolate cake" class="home_img">
+
+                    <div class="home_data">
+                        <h1 class="home_title">
+                            Enjoy Delicious
+    
+                            <div>
+                                <img src="assets/img/small-cake-img.png" alt="home image">
+                                Cake and Tea
+                            </div>
+                        </h1>
+    
+                        <p class="home_description">
+                            Enjoy a good cake with the best tea in the world 
+                            and improve your day.
+                        </p>
+    
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="assets/img/leaf-branch-2.png" alt="home image" class="home_leaf-1">
+                <img src="assets/img/leaf-branch-4.png" alt="home image" class="home_leaf-2">
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                
+                <div class="about_container container grid">
+                    <div class="about_data">
+                        <span class="section_subtitle">About Us</span>
+                        <h2 class="section_title about_title">
+                            <div>
+                                We Provide
+                                <img src="assets/img/small-cake-img-1.png" alt="about image">
+                            </div>
+                            High-quality Cake
+                        </h2>
+
+                        <p class="about_description">
+                            Come try our delicious cakes! They're made with 
+                            top-notch ingredients for a heavenly taste. 
+                            Satisfy your cravings at our store today!
+                        </p>
+                    </div>
+                    <img src="assets/img/cupcakes-1.png" alt="about image" class="about_img">
+                </div>
+                <img src="assets/img/leaf-3.png" alt="about image" class="about_img-1">
+                    <img src="assets/img/leaf-3.png" alt="about image" class="about_img-2">
+                <img src="assets/img/leaf-branch-1.png" alt="about image" class="about_leaf">
             </section>
 
             <!--==================== POPULAR ====================-->
             <section class="popular section" id="popular">
-                
+                <span class="section_subtitle">The Best Cake</span>
+                <h2 class="section_title">Popular</h2>
+
+                <div class="popular_container container grid">
+                    <article class="popular_card">
+                        <img src="assets/img/popular-img1.png" alt="popular image" class="popular_img">
+
+                        <h3 class="popular_name">Chocolate</h3>
+                        <span class="popular_description">Birthday cake</span>
+
+                        <span class="popular_price">$10.99</span>
+
+                        <button class="popular_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular_card">
+                        <img src="assets/img/popular-img2.png" alt="popular image" class="popular_img">
+
+                        <h3 class="popular_name">Cherry</h3>
+                        <span class="popular_description">Cupcake</span>
+
+                        <span class="popular_price">$15.99</span>
+
+                        <button class="popular_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular_card">
+                        <img src="assets/img/popular-img3.png" alt="popular image" class="popular_img">
+
+                        <h3 class="popular_name">Blueberry</h3>
+                        <span class="popular_description">Cheesecake</span>
+
+                        <span class="popular_price">$19.99</span>
+
+                        <button class="popular_button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                    
+                </div>
+                <a href="#" class="button popular_more">
+                    See More <i class="ri-arrow-right-line"></i>
+                </a>
             </section>
 
             <!--==================== RECENTLY ====================-->
             <section class="recently section" id="recently">
-                
+                <div class="recently_container container grid">
+                    <div class="recently_data">
+                        <span class="section_subtitle">Recently Added</span>
+                        <h2 class="section_title">Lorem’s Special <br>
+                            Chocolate Fruit Cake
+                            <img src="assets/img/berries.png" alt="recently image">
+                        </h2>
+                        <p class="recently_description">
+                            Take a look at what's new. And do not deprive 
+                            yourself of a good cake, enjoy and be happy.
+                        </p>
+
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                        <img src="assets/img/strawberry.png" alt="recently image" class="recently_data-img-1">
+                        <img src="assets/img/strawberry.png" alt="recently image" class="recently_data-img-2">
+                    </div>
+
+                    <img src="assets/img/recently-img 2.png" alt="recently image" class="recently_img">
+                </div>
+                <img src="assets/img/leaf-branch-2.png" alt="recently image" class="recently_leaf-1">
+                <img src="assets/img/leaf-branch-3.png" alt="recently image" class="recently_leaf-2">
             </section>
 
             <!--==================== NEWSLETTER ====================-->
             <section class="newsletter section">
-                
+                <div class="newsletter_container container">
+                    <div class="newsletter_content grid">
+                        <img src="assets/img/newsletter-img.png" alt="newsletter image" class="newsletter_img">
+                        <div class="newsletter_data">
+                            <span class="section_subtitle">Newsletter</span>
+                            <h2 class="section_title">
+                                Subscribe For <br>
+                                Offer Updates
+                            </h2>
+                            <form action="" class="newsletter_form">
+                                <input type="email" placeholder="Enter email" class="newsletter_input">
+
+                                <button class="button newsletter_button">
+                                    Subscribe <i class="ri-send-plane-line"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer_container container grid">
+                <div>
+                    <a href="#" class="footer_logo">
+                        <img src="assets/img/cake_logo.png" alt="logo image">
+                        Cake
+                    </a>
+
+                    <p class="footer_description">
+                        Cake for the taste is not <br>
+                        enough. There must be cake <br>
+                        for the soul.
+                    </p>
+                </div>
+                <div class="footer_content">
+                    <div>
+                        <h3 class="footer_title">Main Menu</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Menus</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Offer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Events</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer_title">Information</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Order & Returns</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Videos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Reservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer_title">Address</h3>
+
+                        <ul class="footer_links">
+                            <li class="footer_information">
+                                5331 Rexford Court <br>
+                                Montgomery AL 36116
+                            </li>
+                            <li class="footer_information">
+                                9AM - 11PM
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer_title">Social Media</h3>
+
+                        <ul class="footer_social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer_social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <img src="assets/img/leaf-3.png" alt="footer image" class="footer_leaf-small">
+                <img src="assets/img/leaf-branch-4.png" alt="footer image" class="footer_leaf">
+            </div>
+            <div class="footer_info container">
+                <div class="footer_card">
+                    <img src="assets/img/footer-card-1.png" alt="footer image">
+                    <img src="assets/img/footer-card-2.png" alt="footer image">
+                    <img src="assets/img/footer-card-3.png" alt="footer image">
+                    <img src="assets/img/footer-card-4.png" alt="footer image">
+                </div>
+
+                <span class="footer_copy">
+                    &#169; Copyright NotPerr. All rights reserved
+                </span>
+            </div>
         </footer>
 
         <!--========== SCROLL UP ==========-->
-
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/ScrollReveal.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
